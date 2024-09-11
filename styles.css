@@ -9,7 +9,7 @@ body {
 
 body.dark-theme {
     background-color: #2c2c2c;
-    color: #fff
+    color: #fff;
 }
 
 header {
@@ -17,12 +17,12 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #353535;
-    color: #fff
+    color: #fff;
     padding-top: 1.5rem;
 }
 
 .theme-toggle {
-    cursor: 
+    cursor: pointer; 
     text-decoration: underline;
     color: #fff;
     font-size: 1rem;
@@ -45,4 +45,12 @@ section {
 .about, .projects, .contact, .education {
     max-width: 800px;
     margin: 0 auto;
+}
+
+.projects {
+    margin-bottom: 1rem;
+}
+
+.project {
+    margin-bottom: 2rem;
 }
